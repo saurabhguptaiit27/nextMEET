@@ -19,26 +19,42 @@ const Navbar = () => {
           next <span className="text-yellow-400 text-[26px]">MEET</span>
         </p>
       </Link>
-      <div className="text-xs md:block lg:text-sm font-semibold text-gray-200 hover:text-yellow-400">
+      <div className="text-xs md:block lg:text-sm font-semibold">
         <ul className="flex gap-2 lg:gap-5">
-          <li className="hidden md:block">
+          <li className="hidden md:block text-gray-200 hover:text-yellow-400">
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="https://saurabhguptaportfolioreact.vercel.app/">
+            <Link
+              href="https://saurabhguptaportfolioreact.vercel.app/"
+              className="text-gray-200 hover:text-yellow-400"
+            >
               About Me
             </Link>
           </li>
           <li className="hidden md:block">
-            <Link href="https://csmock.vercel.app/">CSmock</Link>
+            <Link
+              href="https://csmock.vercel.app/"
+              className="text-gray-200 hover:text-yellow-400"
+            >
+              CSmock
+            </Link>
           </li>
           <li>
-            <Link href="https://www.linkedin.com/in/saurabh-gupta-4972362b5/">
+            <Link
+              href="https://www.linkedin.com/in/saurabh-gupta-4972362b5/"
+              className="text-gray-200 hover:text-yellow-400"
+            >
               LinkedIn
             </Link>
           </li>
           <li>
-            <Link href="https://github.com/saurabhguptaiit27">Github</Link>
+            <Link
+              href="https://github.com/saurabhguptaiit27"
+              className="text-gray-200 hover:text-yellow-400"
+            >
+              Github
+            </Link>
           </li>
         </ul>
       </div>
