@@ -36,14 +36,14 @@ const MobileNav = () => {
               height={32}
               alt="nextmeet logo"
             />
-            <p className="text-[20px] font-extrabold text-white">
+            <p className="text-[20px] font-extrabold text-gray-200">
               {' '}
               next<span className="text-yellow-400 text-[26px]">MEET</span>
             </p>
           </Link>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild>
-              <section className=" flex h-full flex-col gap-6 pt-16 text-white">
+              <section className=" flex h-full flex-col gap-6 pt-16 text-gray-200">
                 {sidebarLinks.map((item) => {
                   const isActive = pathname === item.route;
 

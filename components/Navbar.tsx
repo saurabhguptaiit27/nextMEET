@@ -15,10 +15,33 @@ const Navbar = () => {
           alt="nextmeet logo"
           className="max-sm:size-10"
         />
-        <p className="text-[20px] font-extrabold text-white max-sm:hidden ml-1">
+        <p className="text-[20px] font-extrabold text-gray-200 max-sm:hidden ml-1">
           next <span className="text-yellow-400 text-[26px]">MEET</span>
         </p>
       </Link>
+      <div className="text-xs md:block lg:text-sm font-semibold text-gray-200 hover:text-yellow-400">
+        <ul className="flex gap-2 lg:gap-5">
+          <li className="hidden md:block">
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="https://saurabhguptaportfolioreact.vercel.app/">
+              About Me
+            </Link>
+          </li>
+          <li className="hidden md:block">
+            <Link href="https://csmock.vercel.app/">CSmock</Link>
+          </li>
+          <li>
+            <Link href="https://www.linkedin.com/in/saurabh-gupta-4972362b5/">
+              LinkedIn
+            </Link>
+          </li>
+          <li>
+            <Link href="https://github.com/saurabhguptaiit27">Github</Link>
+          </li>
+        </ul>
+      </div>
       <div className="flex-between gap-5">
         <SignedIn>
           <UserButton afterSignOutUrl="/sign-in" />
